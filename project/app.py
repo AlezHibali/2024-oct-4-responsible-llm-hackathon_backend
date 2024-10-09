@@ -11,7 +11,7 @@ chat_history = []
 database_link = ""
 conn = None
 
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = 'XXXXXXXXXXXXXXXXXXXXXX'
 llm = ChatOpenAI(temperature=0.8, model_name='gpt-4o')
 
 
